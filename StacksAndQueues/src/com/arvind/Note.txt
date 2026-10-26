@@ -1,0 +1,8 @@
+Vector :
+
+-> It's a dynamic array class in Java that :
+
+>Grows automatically when more elements are added
+>Belongs to the package : java.util
+>Implements the List interface
+>Is synchronized (Thread - safe)

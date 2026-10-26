@@ -1,0 +1,32 @@
+package com.arvind;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class StringExample {
+    public static void main(String[] args) {
+
+//        String message = greet();
+//        System.out.println(message);
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter your name :");
+        String naam = in.next();
+        String myName = myGreet(naam);
+        System.out.println(myName);
+    }
+
+    static String myGreet(String name){
+        String msg = "Hello" + " " + name;
+        return msg;
+    }
+
+//    static String greet(){
+//        String greeting = "How are you ?";
+//        return greeting;
+
+        //OR
+
+//        return "How are you ?";
+//    }
+}
